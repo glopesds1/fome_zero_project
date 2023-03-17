@@ -123,7 +123,9 @@ O painel estratégico foi desenvolvido utilizando métricas que refletem as prin
 4. Culinarias com piores avaliações
 
 # Insights
-
+1. Os preços dos restaurantes na Australia são muito maiores que os dos outros países.
+2. Entre os melhores restaurantes, as diferenças das avaliações são bem baixas
+3. As culinarias asiaticas estão entre as mais bem avaliadas. 
 
 # Produto final do projeto
 Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet. 
