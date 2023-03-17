@@ -124,18 +124,6 @@ st.set_page_config(page_title='Home',page_icon='🍕',layout='wide')
 
 st.sidebar.markdown( '# Fome Zero' )
 
-country_options = st.sidebar.multiselect(
-    'Escolha os Paises que deseja visualizar as Informações?', 
-    ['Philippines', 'Brazil', 'Australia', 'United States of America',
-       'Canada', 'Singapure', 'United Arab Emirates', 'India',
-       'Indonesia', 'New Zeland', 'England', 'Qatar', 'South Africa',
-       'Sri Lanka', 'Turkey'], 
-    default=['Brazil', 'Australia', 'Canada', 'England', 'Qatar', 'South Africa'] )
-
-dfaux=df1.copy()
-linhas_selecionadas3 = dfaux['country_code'].isin( country_options )
-dfaux = dfaux.loc[linhas_selecionadas3, :]
-
 st.sidebar.markdown( """---""" )
 
 ################################ Fim da Sidebar ################################
