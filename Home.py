@@ -169,7 +169,7 @@ with st.container():
     for index , location_info in dfaux.iterrows():
         folium.Marker( [location_info['latitude'], 
                         location_info['longitude']],
-                        popup=location_info[["Prato pra dois" + df['average_cost_for_two']],'aggregate_rating']).add_to(map)
+                        popup=location_info[['average_cost_for_two' , 'aggregate_rating']]).add_to(map)
 
     folium_static( map, width= 1024, height=600)
 
