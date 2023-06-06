@@ -100,6 +100,7 @@ perguntas feitas do CEO e criar o dashboard solicitado.
 1. A análise foi realizada com o Dataframe fornecido pela própria empresa (dados públicos)
 2. O marketplace foi o modelo de negócio assumido
 3. As principais visões de negócio foram fornecidas pelo CEO (País, cidades, restaurantes e culinárias)
+4. Apesar de vários restaurantes fornecerem mais de um tipo de culinárias, foi optado por resumir à apenas uma, para facilitar o projeto.
 
 # Estratégia da solução
 O painel estratégico foi desenvolvido utilizando métricas que refletem as principais visões do modelo de negócio. 
@@ -123,9 +124,8 @@ O painel estratégico foi desenvolvido utilizando métricas que refletem as prin
 4. Culinarias com piores avaliações
 
 # Insights
-1. Os preços dos restaurantes na Australia são muito maiores que os dos outros países.
-2. Entre os melhores restaurantes, as diferenças das avaliações são bem baixas
-3. As culinarias asiaticas estão entre as mais bem avaliadas. 
+1. Os preços dos restaurantes na Australia são muito maiores que os dos outros países, provavelmente relacionado ao turismo do país.
+2. As culinarias asiáticas estão entre as mais bem avaliadas. 
 
 # Produto final do projeto
 Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet. 
